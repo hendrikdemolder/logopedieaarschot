@@ -194,3 +194,23 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+
+
+
+function initialize_google_maps() {
+   var mapCanvas = document.getElementById('map');
+   var mapOptions = {
+     center: new google.maps.LatLng(51.0036277,4.8408365),
+     zoom: 16,
+     mapTypeId: google.maps.MapTypeId.ROADMAP
+   }
+   var map = new google.maps.Map(mapCanvas, mapOptions);
+
+   var marker = new google.maps.Marker({
+   position: new google.maps.LatLng(51.0036277,4.8408365),
+   map:map,
+   title:'Logopdie Liesbet Schouwaerts' });
+ }
+
+ google.maps.event.addDomListener(window, 'load', initialize_google_maps);
