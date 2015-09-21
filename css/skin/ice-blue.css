@@ -3,6 +3,8 @@ a, a:hover, a:focus {
 	color: #7FB2F0;
 }
 
+
+
 /* === Navbar === */
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
 	color: #7FB2F0;
@@ -44,10 +46,10 @@ a, a:hover, a:focus {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
-	
+
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
-	
+
 }
 /* Navbar inverse */
 .navbar-inverse {
@@ -152,6 +154,10 @@ a, a:hover, a:focus {
 	background: none repeat scroll 0 0 rgba( 78, 122, 199, 0.95);
 }
 
+.portfolio_single_item a:active {
+	color: #7FB2F0;	
+}
+
 
 
 /* === Team === */
@@ -211,7 +217,7 @@ a, a:hover, a:focus {
 
 
 /* === Buttons === */
-.btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active { 
+.btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	background: #4E7AC7;
 	color: #fff;
 }
